@@ -1,0 +1,231 @@
+/* CSS Document */
+
+body {
+    pdding: 0;
+    argin: 0;
+    background-color: #E4F2EA;
+    font-size: 1em;
+}
+
+
+h1, h2, h3, h4, h5, h6, ul, li, a, blockquote {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #a5048a;
+     text-align:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+	background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaper.dog%2Ffortnite&psig=AOvVaw28jcF9heD6WV_8QFXqi3U5&ust=1679592042359000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOCX44mG8P0CFQAAAAAdAAAAABAJ);
+
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 10em;
+    margin-top: -.2em;
+    margin-bottom: -.6em;
+     color:black;
+     text-align:center;
+
+	
+}
+
+header h2 {
+    margin: 0;
+    font-size: 3em;
+    color: red;
+    text-align: center;
+    text-shadow:
+        3px 3px 5px #11181E,
+        -2px -2px 5px #11181E,
+        2px -2px 5px #11181E,
+        -2px 2px 5px #11181E,
+        2px 2px 5px #11181E;
+		padding: 25px 50px 75px;
+}
+
+.firstE {
+    color: #A68160;
+}
+
+.letterG {
+    color: #E4F2EA;
+}
+
+.lastE {
+    color: #A68160;
+}
+
+nav {
+  text-align: center;
+	padding: .8em;
+}
+
+nav ul {
+    display:inline;
+    padding-left: 150px;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+}
+
+nav a {
+    color:#E4F2EA;
+    font-size: 1.7em;
+    padding: 0 1.3em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #734F2F;
+    text-decoration: underline;
+}
+
+
+main {
+    margin: 0 auto;
+}
+
+footer {
+	background:#a5048a;
+}
+
+footer p {
+    clear: right;
+    float: right;
+    color: #E4F2EA;
+    font-weight: bold;
+    text-align: center;
+    margin: 2px;
+    margin-right: 50px;
+}
+    
+#container{
+	margin: 0 auto;
+	width: 80%;
+	font-size: 1.8em;
+    background-color: #E4F2EA;
+    text-decoration-color: black;
+}
+
+.container1{
+	font-size: 1.8em;
+    background-color: #E4F2EA;
+    text-decoration-color: black;
+}
+
+#container img{
+	float: left;
+	margin-right: 2%;
+	border: 20px double;
+	border-radius: 10px;
+	text-align: right;
+
+}
+
+.container1 img{
+    align-items: center;
+	border: 20px double;
+	border-radius: 10px;
+}
+
+	form {
+		background-color: #FFFFFF;
+		padding: 1em;
+	}
+	
+	form p {
+		color: #000000;
+	}
+.frame{
+color:black;
+box-sizing: border-box;
+
+}
+.form-style-6{
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
+}
+.form-style-6 h1{
+	background:#a5048a;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background:#a5048a;
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: black;
+}
+
+.center {
+  align-content: center;
+  display: block;
+}
